@@ -13,6 +13,6 @@ def set_alarm(alarm_time):
                 break
             time.sleep(1)
     except ValueError:
-        print("Invalid format please enter vlaid format")
+        print("Invalid format please enter valid format")
 set_alarm("15:17:00")                
           
